@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.manu-container{
+  background-color: black;
+  padding: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.logo-img{
+  width: 120px;
+  position:left;
+  
+
+}
+.manu{
+  display:flex;
+  position: right;
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: aliceblue;
+ cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-right: 5px;
+}
+a:hover{
+  color:palevioletred ;
+}
+.banner-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+ background-image:url("background.png"), linear-gradient(-90deg,#4a4443,#6e5e5d);
+}
+.title{
+  text-align: center;
+  font-size: 35px;
+}
+.banner-img{
+  width: 300px;
+  border-radius: 50%;
+  
+}
+.header1{
+ text-align: center;
+  font-size: 40px;
+}
+.about-container{
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #454141
+}
+
+.about-img{
+  width: 300px;
+  border-radius: 50%;
+  
+}
+.about-text{
+  align-items: center;
+}
+.text{
+ font-size: x-large;
+}
+.btn1{
+  color: white;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  align-items: center;
+}
+.btn1:hover{
+  background-color: tomato;
+}
+.service-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #0d0c0c;
+}
+.box-img{
+  width: 70px;
+  margin: 15px;
+
+}
+.box1{
+ background-color: black;
+ text-align: center;
+ width: 230px;
+ height: 300px;
+ text-align: center;
+ padding: 15px;
+ box-shadow: 5px,5px,15px,gray;
+}
+.header3{
+  color: aliceblue;
+  padding: 10px;
+}
+.text2{
+  color: beige;
+  padding: 5px;
+}
+.btn2{
+  margin: 10px;
+  background: #6e5e5d;
+  border-radius: 5px;
+}
+.btn2:hover{
+  background-color: tomato;
+}
+.footer-container{
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  justify-content: space-around;
+  background: #4a4443;
+}
+.icon{
+  height: 10px;
+}
+.Address{
+  width: 100px;
+  height: 100px;
+}
+h4{
+  text-decoration: underline;
+}
+

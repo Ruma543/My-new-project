@@ -53,12 +53,14 @@ a:hover{
  text-align: center;
   font-size: 40px;
 }
+.about{ 
+ background: #454141
+} 
 .about-container{
   height: 100vh;
   display:flex;
   align-items: center;
   justify-content: space-around;
-  background: #454141
 }
 
 .about-img{
@@ -83,6 +85,15 @@ a:hover{
 .btn1:hover{
   background-color: tomato;
 }
+.service{  
+  background: #0d0c0c;
+}
+.header2{
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+  color:white ;
+}
 .service-container{
   display: flex;
   justify-content: space-around;
@@ -101,7 +112,7 @@ a:hover{
  height: 300px;
  text-align: center;
  padding: 15px;
- box-shadow: 5px,5px,15px,gray;
+ box-shadow: 5px,5px,20px,gray;
 }
 .header3{
   color: aliceblue;
